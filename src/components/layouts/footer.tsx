@@ -6,7 +6,7 @@ const Footer = () => (
 		<div className="grid grid-cols-3">
 			<div></div>
 			<p className="text-center text-sm text-gray-600">
-				© Kodea Solutions {new Date().getFullYear()}. All rights reserved
+				© ipv6next Solutions {new Date().getFullYear()}. All rights reserved
 			</p>
 			{globalSiteVersion ? (
 				<p className="text-right text-sm text-gray-600">{globalSiteVersion}</p>
