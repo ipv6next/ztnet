@@ -949,7 +949,7 @@ setup_zerotier
 pull_checkout_ztnet(){
   if [[ ! -d "$TEMP_REPO_DIR/.git" ]]; then
     print_status "Initializing repository..."
-    $STD git clone --depth 1 --no-single-branch https://github.com/sinamics/ztnet.git $TEMP_REPO_DIR
+    $STD git clone --depth 1 --no-single-branch https://github.com/ipv6next/ztnet.git $TEMP_REPO_DIR
     cd "$TEMP_REPO_DIR"
     $STD git config core.sparseCheckout true
     mkdir -p .git/info
