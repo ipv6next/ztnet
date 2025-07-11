@@ -33,7 +33,7 @@ export const WelcomeMessage = () => {
 										className="text-sm text-primary/50"
 										target="_blank"
 									>
-										https://ztnet.network
+										https://ztnet.network.ipv6
 									</Link>
 								</div>
 							)}
